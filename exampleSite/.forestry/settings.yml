@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: exampleSite/content/mum/_index.md
+  label: Soya Mumları
+  match: "**/*"
 - type: heading
   label: Homepage
 - type: document
@@ -31,7 +35,7 @@ sections:
   path: exampleSite/content/contact/_index.md
   label: İletişim
 - type: document
-  path: exampleSite/content/pricing/_index.md
+  path: exampleSite/content/sipariş/_index.md
   label: Sipariş
 - type: document
   path: exampleSite/content/privacy-policy/_index.md
