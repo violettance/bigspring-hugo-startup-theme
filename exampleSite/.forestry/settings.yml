@@ -29,10 +29,10 @@ sections:
   label: FAQ
 - type: document
   path: exampleSite/content/contact/_index.md
-  label: Contact
+  label: İletişim
 - type: document
   path: exampleSite/content/pricing/_index.md
-  label: Pricing
+  label: Sipariş
 - type: document
   path: exampleSite/content/privacy-policy/_index.md
   label: Privacy Policy
