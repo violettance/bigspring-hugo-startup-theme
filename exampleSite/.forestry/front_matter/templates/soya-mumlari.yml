@@ -35,3 +35,5 @@ fields:
   type: tag_list
   default: []
   label: tag-field
+pages:
+- exampleSite/content/mum/midday.md
