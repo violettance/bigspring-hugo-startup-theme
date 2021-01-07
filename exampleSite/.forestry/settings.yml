@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Homepage
+- type: document
+  path: exampleSite/data/homepage.yml
+  label: Homepage Data
+- type: heading
+  label: Soya Mumları
 - type: directory
   path: exampleSite/content/mum
   label: Soy Candle Data
@@ -12,16 +19,9 @@ sections:
   exclude: _index.md
   templates:
   - soya-mumlari
-- type: heading
-  label: Soya Mumları
 - type: document
   path: exampleSite/content/mum/_index.md
   label: Soya Mumları
-- type: heading
-  label: Homepage
-- type: document
-  path: exampleSite/data/homepage.yml
-  label: Homepage Data
 - type: heading
   label: Blog Post
 - type: document
@@ -35,11 +35,6 @@ sections:
   exclude: _index.md
   templates:
   - post
-- type: heading
-  label: Others Page
-- type: document
-  path: exampleSite/content/faq/_index.md
-  label: FAQ
 - type: document
   path: exampleSite/content/contact/_index.md
   label: İletişim
@@ -57,12 +52,6 @@ sections:
 - type: document
   path: exampleSite/content/pricing/_index.md
   label: Sipariş
-- type: document
-  path: exampleSite/content/privacy-policy/_index.md
-  label: Privacy Policy
-- type: document
-  path: exampleSite/content/terms-conditions/_index.md
-  label: Terms & Conditions
 - type: heading
   label: All Pages
 - type: directory
