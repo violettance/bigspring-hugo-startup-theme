@@ -36,7 +36,7 @@ link = ""
 [professional]
 image = ""
 info = ""
-name = ""
+name = "Arctic Night"
 price = ""
 price_per = ""
 services = []
