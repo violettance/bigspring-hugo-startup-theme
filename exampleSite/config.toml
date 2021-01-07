@@ -27,7 +27,7 @@ name = "Bize Ulaşın"
 [[menu.main]]
 URL = "sojcandle.netlify.app"
 name = "SOJ"
-weight = "1"
+weight = "5"
 [[menu.main]]
 URL = "pricing"
 name = "Sipariş Ver"
