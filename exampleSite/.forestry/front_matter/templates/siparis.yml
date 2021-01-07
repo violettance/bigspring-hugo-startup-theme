@@ -1,0 +1,138 @@
+---
+label: Sipariş
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: description
+  label: description
+- type: field_group
+  name: basic
+  label: basic
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: price
+    label: price
+  - type: text
+    name: price_per
+    label: price_per
+  - type: text
+    name: info
+    label: info
+  - type: list
+    name: services
+    label: services
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: professional
+  label: professional
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: price
+    label: price
+  - type: text
+    name: price_per
+    label: price_per
+  - type: text
+    name: info
+    label: info
+  - type: list
+    name: services
+    label: services
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: business
+  label: business
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: price
+    label: price
+  - type: text
+    name: price_per
+    label: price_per
+  - type: text
+    name: info
+    label: info
+  - type: list
+    name: services
+    label: services
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: call_to_action
+  label: call_to_action
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: content
+    label: content
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
