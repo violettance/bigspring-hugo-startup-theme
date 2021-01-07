@@ -19,6 +19,10 @@ name = "Sipariş Ver"
 URL = "blog"
 name = "Blog"
 [[menu.main]]
+URL = "pricing"
+name = "Sipariş Ver"
+weight = "1"
+[[menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 1
@@ -34,7 +38,7 @@ footer_menu_right = ""
 logo = "/images/output-onlinepngtools.png"
 logo_width = "200px"
 [params.navigation_button]
-enable = true
+enable = false
 label = "Sipariş Ver"
 link = "pricing"
 [[params.plugins.css]]
