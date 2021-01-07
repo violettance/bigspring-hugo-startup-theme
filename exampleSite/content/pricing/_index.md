@@ -48,14 +48,13 @@ business:
   image: ''
 call_to_action:
   enable: true
-  title: Need a larger plan?
-  image: images/cta.svg
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-    eget amet, tempus eu at consecttur.
+  title: Önce ürünleri incelemek ister misin?
+  image: "/images/img_0365.JPG"
+  content: ''
   button:
     enable: true
-    label: Contact Us
-    link: contact
+    label: Ürünleri İncele
+    link: mum
 image_all: "/images/img_0365.JPG"
 
 ---
