@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Soya Mumları
 - type: document
   path: exampleSite/content/mum/_index.md
   label: Soya Mumları
