@@ -13,6 +13,9 @@ unsafe = true
 footer_middle = []
 footer_right = []
 [[menu.footer_left]]
+URL = "sojcandle.netlify.app"
+name = "SOJ"
+[[menu.footer_left]]
 URL = "price"
 name = "Sipariş Ver"
 [[menu.footer_left]]
