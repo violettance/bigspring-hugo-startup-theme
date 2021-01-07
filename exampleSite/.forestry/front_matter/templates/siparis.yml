@@ -18,6 +18,11 @@ fields:
   - type: text
     name: name
     label: name
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
   - type: text
     name: price
     label: price
@@ -50,6 +55,11 @@ fields:
   - type: text
     name: name
     label: name
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
   - type: text
     name: price
     label: price
@@ -82,6 +92,11 @@ fields:
   - type: text
     name: name
     label: name
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
   - type: text
     name: price
     label: price
